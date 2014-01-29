@@ -1,0 +1,17 @@
+export(
+    fit.mle.t,
+    asy.var.t,
+    info.exp.t,
+    likelihood.t,
+    score.t,
+    qqmathFitted,
+    panel.qqmath.fitted,
+    #panel.qqmath.fitted.main,
+    #panel.qqmath.fitted.envelope,
+    prepanel.qqmath.fitted,
+	 "%like%",
+	 dlevy,
+	 plevy,
+	 qlevy,
+	 rlevy
+)

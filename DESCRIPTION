@@ -1,0 +1,22 @@
+Package: cggmisc
+Type: Package
+Title: Christopher G Green's Miscellaneous Functions 
+Version: 1.0.2
+Date: 2012-12-01
+Author: Christopher G. Green <christopher.g.green@gmail.com>. Parts of
+    this package are based on code from the following R contributed packages:
+    lattice from Deepayan Sarkar; robust from Jiahui Wang et al.
+Maintainer: Christopher G. Green <christopher.g.green@gmail.com>
+Description: A variety of functions written by Christopher G. 
+    Green. Notable functions include qqmathFitted, which produces 
+    quantile-quantile (Q-Q) plots against a fitted distribution. The package 
+    also includes utility routines for fitting Student's t distribution;
+    their main use is in constructing Q-Q plots against a Student's t 
+    distribution.
+License: GPL (>= 2)
+Copyright: See the COPYRIGHTS file for copyright and authorship 
+    information.
+LazyLoad: yes
+LazyData: no
+Depends: lattice
+Suggests: robust, robustbase
