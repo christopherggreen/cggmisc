@@ -1,0 +1,6 @@
+A variety of functions written by Christopher G. 
+Green. Notable functions include qqmathFitted, which produces 
+quantile-quantile (Q-Q) plots against a fitted distribution. The package 
+also includes utility routines for fitting Student's t distribution;
+their main use is in constructing Q-Q plots against a Student's t 
+distribution.
