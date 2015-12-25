@@ -1,11 +1,32 @@
 Package: cggmisc
 Type: Package
 Title: Christopher G Green's Miscellaneous Functions 
-Version: 1.0.2
-Date: 2012-12-01
-Author: Christopher G. Green <christopher.g.green@gmail.com>. Parts of
-    this package are based on code from the following R contributed packages:
-    lattice from Deepayan Sarkar; robust from Jiahui Wang et al.
+Version: 1.0.3
+Date: 2015-12-24
+Authors@R: c(person("Christopher G.","Green",role=c("aut","cre"),
+	email = "christopher.g.green@gmail.com"), 
+	person("Deepayan","Sarkar",role="ctb",comment="author of lattice package"),
+    person("Kjell","Konis",role="ctb",
+	comment="maintainer of fit.models package and co-author of robust package",
+    email = "kjell.konis@me.com"),
+	person("Jiahui","Wang",role="ctb",comment="co-author of robust package"),
+    person("Ruben","Zamar",role="ctb",comment="co-author of robust package",
+	email = "ruben@stat.ubc.ca"),
+    person("Alfio","Marazzi",role="ctb",comment="co-author of robust package",
+    email = "Alfio.Marazzi@inst.hospvd.ch"),
+    person("Victor","Yohai",role="ctb",comment="co-author of robust package",
+    email = "vyohai@dm.uba.ar"),
+    person("Matias","Salibian-Barrera",role="ctb",
+	comment="co-author of robust package",email = "matias@stat.ubc.ca"),
+    person("Ricardo","Maronna",role="ctb",comment="co-author of robust package",
+    email = "maron@mate.unlp.edu.ar"),
+    person("Eric","Zivot",role="ctb",comment="co-author of robust package",
+    email = "ezivot@u.washington.edu"),
+    person("David","Rocke",role="ctb",comment="co-author of robust package",
+    email = "dmrocke@ucdavis.edu"),
+    person("Doug","Martin",role="ctb",comment="co-author of robust package"),
+    person("Martin","Maechler",role="ctb",comment="co-author of robust package",
+    email = "maechler@stat.math.ethz.ch"))
 Maintainer: Christopher G. Green <christopher.g.green@gmail.com>
 Description: A variety of functions written by Christopher G. 
     Green. Notable functions include qqmathFitted, which produces 

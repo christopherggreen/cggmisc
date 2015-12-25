@@ -16,5 +16,5 @@
 ### a full list of copyright and authorship information.
 ###
 "%like%" <- function(x, pattern) {
-	x %in% grep(pattern, x, value=T)
+	x %in% grep(pattern, x, value=TRUE)
 }
