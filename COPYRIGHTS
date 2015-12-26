@@ -15,12 +15,12 @@ for the cggmisc R package.
 - The qqmathFitted function and its auxilliary panel
   and prepanel functions incorporate ideas and 
   functionality from the lmfmResQQPlot function in the
-  robust package. The robust package was written by 
-  Jiahui Wang, Ruben Zamar, Alfio Marazzi, Victor Yohai, 
-  Matias Salibian-Barrera, Ricardo Maronna, Eric Zivot, 
-  David Rocke, Doug Martin, Martin Maechler, and 
-  Kjell Konis. Copyright for that package currently 
-  belongs to Doug Martin and Kjell Konis.
+  fit.models package (and originally, the robust package). 
+  The robust package was written by Jiahui Wang, Ruben Zamar, 
+  Alfio Marazzi, Victor Yohai, Matias Salibian-Barrera, 
+  Ricardo Maronna, Eric Zivot, David Rocke, Doug Martin, 
+  Martin Maechler, and Kjell Konis. Copyright for that 
+  package currently belongs to Doug Martin and Kjell Konis.
 - Copyrights for R can be found in R's copyright
   and license file.
 
