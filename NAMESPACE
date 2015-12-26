@@ -9,9 +9,12 @@ export(
     #panel.qqmath.fitted.main,
     #panel.qqmath.fitted.envelope,
     prepanel.qqmath.fitted,
-	 "%like%",
-	 dlevy,
-	 plevy,
-	 qlevy,
-	 rlevy
+	"%like%",
+	dlevy,
+	plevy,
+	qlevy,
+	rlevy,
+	is.zero,
+	splus.colors,
+	splus.theme
 )
