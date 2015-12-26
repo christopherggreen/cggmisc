@@ -16,7 +16,8 @@
  	underlying function is grep	
 }
 \value{
-	A
+	A logical vector, the same length of \code{x}, indicating whether each
+	element of \code{x} matched \code{pattern}.
 }
 \author{ Christopher G. Green \email{christopher.g.green@gmail.com} }
 \seealso{
