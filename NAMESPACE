@@ -16,5 +16,7 @@ export(
 	rlevy,
 	is.zero,
 	splus.colors,
-	splus.theme
+	splus.theme,
+	fftn,
+	mccullochquantile
 )

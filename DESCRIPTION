@@ -1,8 +1,8 @@
 Package: cggmisc
 Type: Package
 Title: Christopher G Green's Miscellaneous Functions 
-Version: 1.0.5
-Date: 2015-12-25
+Version: 1.0.6
+Date: 2015-12-26
 Authors@R: c(person("Christopher G.","Green",role=c("aut","cre"),
 	email = "christopher.g.green@gmail.com"), 
 	person("Deepayan","Sarkar",role="ctb",comment="author of lattice package"),
