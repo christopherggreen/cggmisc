@@ -15,7 +15,11 @@
     distribution. Default is FALSE. }
 }
 \details{
-
+	Estimates the parameters of an \eqn{\alpha}-stable distribution
+	using McCulloch's quantile-based estimator. This estimator is 
+	fast but not as accurate as other approaches (e.g., maximum likelihood).
+	It is useful as a starting value in more accurate (but more 
+	computationally intensive) estimates.
 }
 \value{ A vector of length 5 containing the parameter
  estimates (in this order):
@@ -27,10 +31,10 @@
  zeta\tab  the shifted location parameter (of Zolotarev)\cr
  }
 }
-\author{ Based on J. McCulloch's GAUSS implementation, which can be found on McCulloch's
+\author{ Based on J. H. McCulloch's GAUSS implementation, which can be found on McCulloch's
   homepage: http://www.econ.ohio-state.edu/jhm/jhm.html .
 
-  Ported to S-PLUS/C and later, to R, by Christopher G. Green 
+  S-PLUS/C code and R port by Christopher G. Green 
   \email{christopher.g.green@gmail.com}.
 }
 \references{
@@ -39,6 +43,6 @@
  Communications in Statistics, Simulation, 1986 (15:4), 1109-1136.
 }
 \examples{
-
+  mccullochquantile( rnorm(1000), symm=TRUE )
 }
 \keyword{alpha-stable}
