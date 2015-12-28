@@ -44,5 +44,26 @@
 }
 \examples{
   mccullochquantile( rnorm(1000), symm=TRUE )
+
+  # test case from mcculloch's paper
+  require(stabledist) # for rstable
+
+  # test how well the estimate works for different sample sizes
+  results <- sapply(c(10, 100, 1000, 10000), 
+  	function(n) sapply(1:1000, 
+  		function(i,n) abs(mccullochquantile(rstable(n,1.45,0),symm=TRUE)$alpha - 1.45), 
+  			n=n))
+  
+  colMeans(results)
+  apply(results, 2, sd)
+  
+  # an asymmetric case 
+  results <- sapply(c(10, 100, 1000, 10000), 
+  	function(n) sapply(1:1000, 
+  		function(i,n) abs(mccullochquantile(rstable(n,1.45,0.2))$beta - 0.2), 
+  			n=n))
+  
+  colMeans(results)
+  apply(results, 2, sd)
 }
-\keyword{alpha-stable}
+\keyword{distribution}

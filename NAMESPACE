@@ -1,3 +1,5 @@
+useDynLib(cggmisc)
+importFrom(stabledist, dstable)
 export(
     fit.mle.t,
     asy.var.t,
@@ -18,5 +20,10 @@ export(
 	splus.colors,
 	splus.theme,
 	fftn,
-	mccullochquantile
+	mccullochquantile,
+	likelihood.stable,
+	fit.mle.stable,
+	memsize,
+	anyMissing,
+	which.na
 )
